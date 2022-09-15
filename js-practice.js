@@ -4,18 +4,36 @@
 
 //a. define a variable and give it a string value
 
+const name = "Luis Molinuevo";
+
 //b. define a variable and give it a number value
 
+let age = 14;
+
 //c. define a variable and give it a boolean value
+
+let empty = true;
 
 //2. if else, ternary 
 //a. define a variable 'metrocard' and give it a value of 5
 
+const metrocard = 5
+
 //b. write an if statement that has a condition to check if the value of metro card is greater than 2.75, and display the message "you have enough to ride the train", if the condition is true
+
+if(metrocard >= 2.75) {
+    console.log("you have enough to ride the train");
+}
 
 //c.write an else statement that displays the message "you do not have enough to pay fare sorry"
 
+else {
+    console.log("you do not have enough to pay fare sorry")
+}
+
 //d. write the above if/else statement again as a ternary 
+
+const ride = metrocard >= 2.75 ? "you have enough to ride the train" : "you do not have enough to pay fare sorry"
 
 //3. conditionals 2 (1 pt)
 //a.  complete this codecademy project: https://www.codecademy.com/courses/introduction-to-javascript/projects/magic-eight-ball-1 
