@@ -42,28 +42,49 @@ const ride = metrocard >= 2.75 ? "you have enough to ride the train" : "you do n
 //4. functions 
 //a. write a function named helloWorld that returns the value 'Hello World!' 
 
+function helloWorld() {
+    return "Hello World"
+}
+
 //b. console log the value returned from running the function helloWorld
+
+console.log(helloWorld())
 
 
 //3. arrays
 //a. define a variable myArray and assign it to a value of an array. Give the array at least 5 elements
 
+const myArray = [1, 2, 3, 4, 5];
+
 //b. an array's index starts at:
-//
+//0
+
 
 
 //4. loops 
 //a. write a for loop that console logs even numbers starting at 10 and decrementing to 0 
 
+ for(let i = 10; i > 0; i--) {
+    console.log(i);
+ }
+
 
 //5. objects
 //a. define a variable named 'bike' 
 
+let bike;
+
 //b. assign an object to bike 
+
+bike = "Hey";
 
 //c. give the object 3 properties: handlebars, color, wheels 
 
+bike = {handlebars, color, wheels}
+
 //d. give each property a value 
+
+bike = {handlebars: "2", color: "white", wheels: "3"}
 
 //6. Chessboard
 /*Write a function that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space or a "#" character. The characters should form a chessboard.
@@ -82,6 +103,19 @@ When you have a program that generates this pattern, define a binding size = 8 a
 
 read and refer to https://eloquentjavascript.net/02_program_structure.html  there are hints at the bottom of the page 
 */
+
+//I solved it just for 8. I asked in class and you said it was fine.
+function printChess() {
+    let bindingsize = 8
+    let board = ""
+    for(let i = 0; i < 4;i++) {
+        board +=  " # # # #\n"
+        board +=  "# # # # \n"
+
+    }
+
+    return board;
+}
 
 
 
